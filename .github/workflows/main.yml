@@ -33,3 +33,6 @@ jobs:
       # build the react app
       - name: Build
         run: npm run build
+
+      - name: Deploy
+        run: npm start
